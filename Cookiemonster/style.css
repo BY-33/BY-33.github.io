@@ -1,0 +1,35 @@
+body{
+    /* background: url(https://tse1.mm.bing.net/th?id=OIP.xdB8DTNdlITsydRr3IMbhQHaFz&pid=Api&P=0); */
+    background: url(cookie-monster.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#container{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 350px;
+    /* height: 15cm; */
+}
+h1{
+    font-size: 80px;
+    font-family: 'Anek Telugu', sans-serif;
+}
+img{
+    width: 25px;
+    height: 25px;
+}
+h2{
+    background-color: #75c1f6;
+    color: black;
+    border-radius: 6px;
+    
+}
+a{
+    color: rgb(95, 95, 168);
+    text-decoration: none;
+}
