@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>passengercountapp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>No of passenger entered is:</h1>
+    <p id="count_no">0</p>
+    <button id="reset" onclick="countreset()">Reset</button>
+    <button id="increment" onclick="add()">Add</button>
+    <button id="decrement" onclick="countdelete()">Delete</button>
+    <p id="saveddata"></p>
+    <button onclick="savedata()">pevious count</button>
+    </div>
+    <script>
+        var count = 0,i,j,savedata;
+        function add(){
+            count += 1;
+            document.getElementById("count_no").innerHTML = count;
+        }
+        function countdelete(){
+            count -= 1
+            document.getElementById("count_no").innerHTML = count;
+        }
+       
+        function savedata(){
+            // alert(count);
+            // previousdata = count;
+            document.getElementById("saveddata").innerHTML = count;
+        }
+        function countreset(){
+            count = 0;
+            document.getElementById("count_no").innerHTML = count;
+        }
+        
+    </script>
+</body>
+</html>
