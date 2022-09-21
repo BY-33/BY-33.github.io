@@ -1,0 +1,42 @@
+body{
+    background-color: green;
+    text-align: center;
+}
+h1{
+    color: goldenrod;
+    font-size: 130px;
+}
+p{
+    color: white;
+    font-size: 50px;
+}
+button{
+    background-color: goldenrod;
+    color: green;
+    border-color: gold;
+    width: 6cm;
+    height: 1cm;
+    font-size: 30px;
+}
+@media screen and (min-width: 200px) and (max-width: 400px){
+body{
+background-color: rgb(239, 237, 237);
+} 
+h1{
+    font-size: 1cm;
+}
+#subcontainer>p{
+    color: black;
+}
+}
+@media screen and (min-width: 500px) and (max-width: 600px){
+    body{
+    background-color: rgb(239, 237, 237);
+    } 
+    h1{
+        font-size: 3cm;
+    }
+    #subcontainer>p{
+        color: black;
+    }
+    }
